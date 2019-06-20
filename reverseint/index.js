@@ -17,3 +17,14 @@ function reverseInt(n) {
 }
 
 module.exports = reverseInt;
+
+// solution #1
+
+ // let number = n.toString().split('')
+ //    let reversedNum = number.reverse().join('')
+
+ //    if (n < 0){
+ //        return parseInt(reversedNum) * - 1
+ //    }
+ //    return parseInt(reversedNum)
+
