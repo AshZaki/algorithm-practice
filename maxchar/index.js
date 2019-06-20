@@ -8,12 +8,21 @@
 function maxChar(str) {
 	const strLibrary = {};
    
-    for (let i = 0; i < str.length; i++){
-        if (!strLibrary[str[i]]){
-            strLibrary[str[i]] = 1
+    // for (let i = 0; i < str.length; i++){
+    //     if (!strLibrary[str[i]]){
+    //         strLibrary[str[i]] = 1
+    //     }
+    //     else{
+    //         strLibrary[str[i]]++
+    //     }
+    // }
+
+    for (let char of str){
+        if (!strLibrary[char]){
+            strLibrary[char] = 1;
         }
         else{
-            strLibrary[str[i]]++
+            strLibrary[char]++;
         }
     }
    
